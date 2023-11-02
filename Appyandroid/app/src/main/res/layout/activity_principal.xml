@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo3"
+    tools:context=".PrincipalActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Menu Celulares venta "
+
+            android:textColor="@color/azul"
+            android:layout_marginTop="100sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:textAlignment="center"
+
+            android:textSize="30sp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="@color/amarillo"
+                android:drawableLeft="@drawable/baseline_add_shopping_cart_24"
+                android:text="compara"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+
+                android:textColor="@color/azul"
+                android:textSize="30sp"></Button>
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="@color/amarillo"
+                android:drawableLeft="@drawable/baseline_add_shopping_cart_24"
+                android:text="compara"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+
+                android:textColor="@color/azul"
+                android:textSize="30sp"></Button>
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:srcCompat="@tools:sample/avatars" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="@color/amarillo"
+                android:drawableLeft="@drawable/baseline_add_shopping_cart_24"
+                android:text="compara"
+                android:paddingLeft="60dp"
+                android:paddingRight="60dp"
+
+                android:textColor="@color/azul"
+                android:textSize="30sp"></Button>
+
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/Botton_Login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="45dp"
+            android:layout_marginRight="45dp"
+            android:backgroundTint="@color/verde"
+
+            android:text="SAlir"
+
+            android:textColor="@color/white"
+            android:textSize="20sp"></Button>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+
+            android:background="@color/verde"
+            android:text="By JhonBB"
+            android:textAlignment="center"
+            android:textColor="@color/lila"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

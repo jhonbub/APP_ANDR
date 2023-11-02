@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo2"
+    tools:context=".RegitroActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:text="Regitro :"
+            android:textColor="@color/azul"
+
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ingrese Correo  y Clave"
+
+            android:textColor="@color/azul"
+            android:layout_marginTop="100sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginRight="20sp"
+            android:textAlignment="center"
+
+            android:textSize="30sp"
+            />
+        <EditText
+            android:layout_marginTop="60sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:hint="Correo"
+            android:background="@color/lila"
+            android:inputType="textEmailAddress"
+            android:textSize="30sp"
+
+            ></EditText>
+        <EditText
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:hint="Clave"
+            android:background="@color/lila"
+            android:inputType="textPassword"
+            android:textSize="30sp"
+            ></EditText>
+        <EditText
+            android:layout_marginTop="30sp"
+            android:layout_marginLeft="40sp"
+            android:layout_marginRight="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:hint="confirme clave"
+            android:inputType="textPassword"
+            android:background="@color/lila"
+            android:textSize="30sp"
+            ></EditText>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/Botton_Regitrar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="@color/amarillo"
+                android:text="Registrar"
+                android:textColor="@color/azul"
+                android:textSize="30sp"></Button>
+            <Button
+                android:id="@+id/Botton_Volver_menu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="25dp"
+                android:backgroundTint="@color/lila"
+                android:text="Volver"
+                android:textColor="@color/azul"
+                android:textSize="30sp"></Button>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+
+            android:background="@color/lila"
+            android:text="By JhonBB"
+            android:textAlignment="center"
+            android:textColor="@color/verde"
+            android:textSize="25sp" />
+
+
+    </LinearLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

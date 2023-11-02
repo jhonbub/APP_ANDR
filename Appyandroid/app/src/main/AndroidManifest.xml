@@ -13,6 +13,12 @@
         android:theme="@style/Theme.AppyAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".PrincipalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegitroActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
